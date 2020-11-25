@@ -137,11 +137,84 @@ Just run:
 curl -L https://git.io/rustlings | bash
 # 2. Or if you want it to be installed to a different path:
 curl -L https://git.io/rustlings | bash -s mypath/
-[To be deteled] #  e.g. 
-[To be deteled  # $ curl -L https://git.io/rustlings | bash -s /mnt/hgfs/arros
+[To be deleted] #  e.g. 
+[To be deleted] # $ curl -L https://git.io/rustlings | bash -s /mnt/hgfs/arros
 # 3. Download from the github:
 git clone https://github.com/rust-lang/rustlings
 cd rustlings
 git checkout tags/4.2.0 # or whatever the latest version is (find out at https://github.com/rust-lang/rustlings/releases/latest)
 cargo install --force --path .
 ```
+
+#### 3.1.2 Doing exercises of Rustling(4.2.0)
+The introduction about this exercise set is described here:
+[🔗Rustling::doing-exercises](https://github.com/rust-lang/rustlings#doing-exercises)
+
+
+a. View the current rustling code exercises problems to be solved.
+```sh
+rustlings watch
+```
+
+b. Doing exercises in the code view of rustling
++ You may change the misstoken 
+
+
+c. For example
++ After running the `rustlings watch`, 
+here are the error massages about the first exercises.
+
+```sh
+
+! Compiling of exercises/variables/variables1.rs failed! Please try again. Here's the output:
+error[E0425]: cannot find value `x` in this scope
+  --> exercises/variables/variables1.rs:12:5
+   |
+12 |     x = 5;
+   |     ^ not found in this scope
+
+error[E0425]: cannot find value `x` in this scope
+  --> exercises/variables/variables1.rs:13:36
+   |
+13 |     println!("x has the value {}", x);
+   |                                    ^ not found in this scope
+
+error: aborting due to 2 previous errors
+
+For more information about this error, try `rustc --explain E0425`.
+
+```
++ to fix this problem: please put `let` ahead of `x = 5;`
++ save the file you changed
+
+
+
+
+```sh
+✓ Successfully ran exercises/variables/variables1.rs!
+
+🎉 🎉  The code is compiling! 🎉 🎉
+
+Output:
+====================
+x has the value 5
+
+====================
+
+You can keep working on this exercise,
+or jump into the next one by removing the `I AM NOT DONE` comment:
+
+ 7 |  // feel ready for the next exercise, remove the `I AM NOT DONE` comment below.
+ 8 |  
+ 9 |  // I AM NOT DONE
+10 |  
+11 |  fn main() {
+```
+
++ delete the `// I AM NOT DONE` in the file. (Rustlings will detect it and jump to the next problem)
+
+
+
++ you may type `hint` in the terminal to git some tips from the rustlings system😊
+
+
