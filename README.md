@@ -1,3 +1,3 @@
-This is the arROS repository of documents
+This is the arros's repository of documents
 # arros-info
 
