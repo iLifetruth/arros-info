@@ -211,10 +211,8 @@ or jump into the next one by removing the `I AM NOT DONE` comment:
 11 |  fn main() {
 ```
 
-+ delete the `// I AM NOT DONE` in the file. (Rustlings will detect it and jump to the next problem)
++ Delete the `// I AM NOT DONE` in the file. (Rustlings will detect it and jump to the next problem)
 
 
 
-+ you may type `hint` in the terminal to git some tips from the rustlings system😊
-
-
++ You may type `hint` in the terminal to get some 'tips' from the rustlings system😊
