@@ -70,7 +70,7 @@ nn@ubuntu:~/arros/arros-embedded/stm32f407/led_test/target/thumbv7em-none-eabi/d
 led_test: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, with debug_info, not stripped
 ```
 
-![image-20201201200729718](/Volumes/Fast_SSD/arros/arros-info/arros_embedded/docs_en/stm32f407_led_test.assets/image-20201201200729718.png)
+![image-20201201200729718](./stm32f407_led_test.assets/image-20201201200729718.png)
 
 ### 5. Debug on board
 
