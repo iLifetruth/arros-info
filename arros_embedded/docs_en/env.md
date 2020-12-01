@@ -3,7 +3,7 @@
 sudo apt install binutils-arm-none-eabi gcc-arm-none-eabi
 ```
 
-![image-20201201184855441](/Volumes/Fast_SSD/arros/arros-info/arros_embedded/docs_en/env.assets/image-20201201184855441.png)
+![image-20201201184855441](./env.assets/image-20201201184855441.png)
 
 # Set Rust Crotex-M4 toolchians
 
